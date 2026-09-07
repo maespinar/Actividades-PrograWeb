@@ -1,6 +1,22 @@
 html, body {
     background-color: black;
     color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+
+#banner {
+    background-image: url('https://www.gran-turismo.com/images/c/i1s9hXSadwmKU.jpg');
+    height: 850px;
+    background-size: cover;
+}
+
+#banner h2 {
+    padding-left: 650px;
+    padding-top: 180px;
+}
+
+p {
+    font-size: 1.7em;
 }
 
 h1 {
@@ -10,4 +26,3 @@ h1 {
 h3 {
     text-decoration: underline;
 }
-
