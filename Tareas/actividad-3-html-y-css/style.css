@@ -43,7 +43,19 @@ input, textarea {
     padding: 10px;
 }
 
-input:focus, textarea {
+input:focus, textarea:focus {
     outline: 2px solid var(--color-principal);
     border-color: var(--color-principal);
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
 }
