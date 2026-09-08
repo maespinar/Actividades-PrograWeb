@@ -1,0 +1,10 @@
+:root {
+    --color-principal: #05a931;
+    --color-secundario: #8cc0ed;
+    --fuente-base: 16px;
+    --espaciado-base: 1.5rem;
+}
+
+* {
+    box-sizing: border-box;
+}
