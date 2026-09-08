@@ -1,6 +1,6 @@
 :root {
-    --color-principal: #05a931;
-    --color-secundario: #8cc0ed;
+    --color-principal: rgb(59, 29, 29);
+    --color-secundario: white;
     --fuente-base: 16px;
     --espaciado-base: 1.5rem;
 }
@@ -8,3 +8,43 @@
 * {
     box-sizing: border-box;
 }
+
+header {
+    background-color: var(--color-principal);
+    padding: var(--espaciado-base);
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: var(--espaciado-base);
+}
+
+main {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: var(--espaciado-base);
+}
+
+table {
+    border-collapse: collapse;
+    padding: var(--espaciado-base);
+    width: 100%;
+}
+
+td, td {
+    padding: 10px;
+    border: 1px solid var(--color-principal);
+}
+/*
+input, textarea {
+    border: 1px solid var(--color-principal);
+    padding: 10px;
+}
+
+input:focus, textarea {
+    outline: 2px solid var(--color-principal);
+    border-color: var(--color-principal);
+}
+*/
