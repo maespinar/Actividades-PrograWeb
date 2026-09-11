@@ -1,0 +1,109 @@
+:root {
+    --color-principal: #ff5117;
+    --color-secundario: rgb(255, 255, 255);
+}
+
+html, body {
+    margin: 0;
+    display: flex;
+}
+
+aside {
+    background-color: var(--color-principal);
+    width: 40px;
+    height: 100vh;
+    align-content: end;
+}
+
+aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside ul li img {
+    width: 17px;
+    padding-left: 11px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+aside ul li img:hover {
+    transform: scale(1.5);
+}
+
+main header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+main header img {
+    margin-left: 40px;
+    width: 180px;
+    margin-right: 803px;
+}
+
+header button:hover {
+    background-color: var(--color-principal);
+}
+
+.bttnPreLima {
+    margin-top: 20px;
+    margin-right: 30px;
+    height: 30px;
+    background-color: var(--color-principal);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.bttnMiUlima {
+    margin-top: 20px;
+    margin-right: 30px;
+    background-color: var(--color-principal);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    height: 30px;
+}
+
+.bttnEs {
+    margin-top: 26px;
+    margin-right: 10px;
+    height: 32px;
+    background-color: var(--color-principal);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.bttnEn {
+    margin-top: 26px;
+    margin-right: 20px;
+    padding: 10px;
+    height: 32px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.bttnBuscador {
+    width: 80px;
+    height: 80px;
+    background-color: var(--color-principal);
+    color: white;
+}
+
+nav {
+    border-top: solid 0.5px lightgray;
+    
+
+}
