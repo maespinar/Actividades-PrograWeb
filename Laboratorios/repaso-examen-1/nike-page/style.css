@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.topBar {
+    display: flex;
+    background-color: rgb(240, 239, 239);
+    font-size: 15px;
+    justify-content: space-between;
+}
+
+#jordanLogo {
+    padding-left: 50px;
+}
+
+.topBar nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    padding-right: 50px;
+}
+
+.secondBar{
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 80px;
+}
+
+#nikeLogo {
+    width: 60px;
+}
+
+.secondBar nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+#searchBar {
+    border-radius: 30px;
+    padding-left: 35px;
+    border: none;
+    background-color: rgb(240, 239, 239);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bottomBar {
+    display: flex;
+    background-color: rgb(227, 226, 226);
+    justify-content: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.filtros {
+    padding-left: 50px;
+}
+
+.concepto {
+    padding-left: 50px;
+}
+
+.concepto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.concepto h3 {
+    font-size: 17px;
+}
+
+.concepto h1 {
+    font-size: 25px;
+}
+
+.concepto .opciones {
+    display: flex;
+    font-size: 13px;
+    padding-right: 50px;
+    padding-top: 40px;
+    gap: 35px;
+}
+
+.catalogo {
+    display:flex;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+
+.filtro {
+    border-top: 1px solid rgb(227, 226, 226);
+    border-bottom: 1px solid rgb(227, 226, 226);
+    width: 200%;
+    font-size: 20px;
+}
+
+.Zapatillas {
+    display: flex;
+    gap: 20px;
+}
+
+.Tarjeta .nombre {
+    font-weight: bold;
+}
+
+.Tarjeta .precio {
+    font-weight: bold;
+    display: flex;
+    gap: 5px;
+}
+
+#poriginal {
+    text-decoration: line-through;
+    color: gray;
+}
+
+#descuento {
+    color: green;
+}
+
+#cupon {
+    color: orange;
+}
+
+.Zapatilla {
+    width: 400px;
+}
