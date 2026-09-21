@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+}
+
+#nintendologo {
+    width: 150px;    
+}
+
+header ul {
+    padding-top: 17px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.Anuncio {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    background: linear-gradient(to bottom, red, white);
+}
+
+#galaxybanner {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.Anuncio {
+    padding-bottom: 10px;
+}
+
+.Anuncio p {
+    font-weight: bold;
+    color: rgb(102, 101, 101);
+    font-size: 20px;
+}
+
+.Anuncio button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Contenido h2 {
+    border-top: 1px solid rgb(188, 185, 185);
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.Destacados {
+    display: flex;
+    gap: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.tarjeta {
+    flex: auto;
+    border: 1px solid rgb(130, 129, 129);
+    border-radius: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+#anosdemario {
+    padding-top: 20px;
+    width: 70px;
+}
+
+#galaxy1y2 {
+    padding-top: 20px;
+    width: 150px;
+}
+
+#elmonobananza {
+    padding-top: 20px;
+    width: 150px;
+}
+
+.tarjeta button {
+    background-color: rgb(91, 91, 248);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
