@@ -1,0 +1,101 @@
+header {
+    display: flex;
+    background-color: white;
+    color: black;
+    align-items: center;
+    gap: 20px;
+}
+
+#MS {
+    color: rgb(129, 129, 129);
+    padding-left: 50px;
+}
+
+#X {
+    color: green;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 25px;
+}
+
+.Main {
+    background-color: black;
+    color: white;
+    padding: 0;
+}
+
+.Main button {
+    font-weight: bold;
+}
+
+.Main h1 {
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
+.Main p {
+    padding-left: 50px;
+}
+
+.Main .buttons {
+    padding-left: 50px;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+
+#bttn1 {
+    color: black;
+    background-color: lightgreen;
+    border: black;
+}
+
+#bttn2 {
+    color: lightgreen;
+    background-color: transparent;
+    border: none;
+}
+
+.Redes {
+    padding-left: 50px;
+}
+
+.Contenido {
+    display: flex;
+    padding-left: 10px;
+    background-color: rgb(226, 225, 225);
+}
+
+.Contenido ul {
+    list-style: none;
+}
+
+.Contenido li {
+    padding-bottom: 20px;
+}
+
+.Contenido p {
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+.Contenido .Examinar {
+    padding-right: 50px;
+}
+
+.legal {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(226, 225, 225); 
+}
+
+.legal ul {
+    display: flex;
+    list-style: none;
+    padding-right: 20px;
+    gap: 20px;
+}
